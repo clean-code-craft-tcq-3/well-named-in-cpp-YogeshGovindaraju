@@ -1,11 +1,11 @@
 #include "ColorCodeTest.h"
+#include "ColorCodeReferenceManual.h"
 
 using namespace TelecommunicationColorCoder;
 
 int main()
 {
-    ColorCode colorCode;
-    colorCode.printReferenceManual();
+    printReferenceManual();
     
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
