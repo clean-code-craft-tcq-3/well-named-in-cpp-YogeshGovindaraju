@@ -17,16 +17,4 @@ namespace TelecommunicationColorCoder
     {
         return major * numberOfMinorColors + minor + ONE;
     }
-    
-    void ColorCode::printReferenceManual()
-    {
-        cout << "**********Reference Manual**********" << endl;
-        cout << "Pair Number -> Color Code" <<endl;
-        for(int pairNumber=ONE; pairNumber<=MAXIMUMCOLORPAIR; pairNumber++)
-        {
-            convertPairNumberToColor(pairNumber);
-            cout << pairNumber << " -> " << toString() << endl;
-        }
-        cout << "************************************" << endl;
-    }
 }
