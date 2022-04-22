@@ -10,7 +10,6 @@ namespace TelecommunicationColorCoder
         public:
         void convertPairNumberToColor(int pairNumber);
         int getPairNumberFromColor(MajorColor major, MinorColor minor);
-        void printReferenceManual();
     };
 }
 
